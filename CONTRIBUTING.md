@@ -45,7 +45,8 @@ Before you push the change to github make sure that your repository is synced wi
     $ git fetch upstream  
     $ git rebase upstream/master  
 
-[More info](https://help.github.com/enterprise/2.18/user/articles/syncing-a-fork/)  Note: we have used *rebase* instead of *merge* as this will create better log.  
+[More info](https://help.github.com/enterprise/2.18/user/articles/syncing-a-fork/)  
+Note: we have used *rebase* instead of *merge* as this will create better log.  
 
 ## Commit message format
 While committing your changes the commit message heading should have the format  
