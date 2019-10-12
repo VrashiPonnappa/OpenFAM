@@ -26,16 +26,16 @@ Run ```git config -l``` to verify the configuration.
 
 ## Fork your copy of OpenFAM Repository on Github  
 By default you will not have permission to push changes to the OpenFAM Repository.  GitHub expects users to fork a copy and work on that copy. To Fork a copy follow the steps below.  
-1. Go to the [OpenFAM repository](https://github.com/OpenFAM/OpenFAMImpl)  
+1. Go to the [OpenFAM repository](https://github.com/OpenFAM/OpenFAM)  
 2. Click on the Fork button at the top right corner.  
-This will create a fork of the OpenFAM repository under your [github account](https://github.com/your-user-name/OpenFAMImpl)  
+This will create a fork of the OpenFAM repository under your [github account](https://github.com/your-user-name/OpenFAM)  
 
 ## Clone your forked repository on your build system and start working on it  
 The clone can be created and worked on using the following commands:
 
-    $ git clone git@github.com:your-user-name/OpenFAMImpl.git  
-    $ cd OpenFAMImpl  
-    $ git remote add upstream git@github.com:OpenFAM/OpenFAMImpl.git
+    $ git clone git@github.com:your-user-name/OpenFAM.git  
+    $ cd OpenFAM  
+    $ git remote add upstream git@github.com:OpenFAM/OpenFAM.git
       
 [More info](https://help.github.com/en/enterprise/2.18/user/articles/fork-a-repo)  
 
@@ -61,7 +61,7 @@ Note that push will only push the changes to your forked repository in github.
 
 ## Submit the changes to the mainline  
 When your changes in forked repository are ready to be committed to the mainline initiate a pull request.  
-This can be triggered by clicking on the green button on the left top corner in [your repository](https://github.com/your-user-name/OpenFAMImpl)  
+This can be triggered by clicking on the green button on the left top corner in [your repository](https://github.com/your-user-name/OpenFAM)  
 
 [More info](https://help.github.com/enterprise/2.18/user/articles/using-pull-requests/)
 
